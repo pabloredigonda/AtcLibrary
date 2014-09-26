@@ -19,5 +19,6 @@
         }
     },
     "repositories": [
-    ]
+    ],
+    "minimum-stability": "dev"
 }

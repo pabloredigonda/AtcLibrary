@@ -3,6 +3,8 @@
     "version" : "0.0.1",
     "description" : "Ads That Change Library",
     "type": "module",
+    "license": "GPL-3.0+",
+    "homepage": "https://github.com/pabloredigonda/AtcLibrary",
     "require" : {
         "php" : ">=5.3.0",
 
@@ -21,5 +23,4 @@
     "repositories": [
     ],
     "minimum-stability": "dev"
-    
 }

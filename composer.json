@@ -1,5 +1,5 @@
 {
-    "name" : "AtcLibrary",
+    "name" : "Atc/AtcLibrary",
     "version" : "0.0.1",
     "description" : "Ads That Change Library",
     "type": "module",

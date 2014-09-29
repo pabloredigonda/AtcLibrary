@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * User
  *
- * @ORM\Table(name="users", uniqueConstraints={@ORM\UniqueConstraint(name="users_email_key", columns={"email"})}})
+ * @ORM\Table(name="users", uniqueConstraints={@ORM\UniqueConstraint(name="users_email_key", columns={"email"})})
  * @ORM\Entity(repositoryClass="Core\Model\Repository\UserRepository")
  */
 class User extends AbstractModel

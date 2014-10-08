@@ -1,15 +1,13 @@
 <?php
 
 namespace Core\Service;
-use Zend\Crypt\Key\Derivation\Pbkdf2;
-use Zend\Math\Rand;
-use Core\Model\Users;
+use Core\Model\User;
 use Core\Helper\HashHelper;
 
 class UserService extends AbstractService implements Service {
 	
 	public function getClassName() {
-		return get_class(new Users());
+		return get_class(new User());
 	}
 	
 	public function findByEmail($email) {

@@ -31,7 +31,6 @@ class User extends AbstractModel
     /**
      *
      * @var string @ORM\Column(name="password", type="string", length=100, nullable=false)
-     *      @Exclude
      */
     protected $password;
 

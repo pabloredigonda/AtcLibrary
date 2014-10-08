@@ -2,9 +2,6 @@
 
 namespace Core;
 
-// use Core\Service\OfficeService;
-// use Zend\ServiceManager\ServiceLocatorInterface;
-
 return array(
 	'doctrine' => array(
 		'driver' => array( 

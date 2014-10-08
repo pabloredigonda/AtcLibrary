@@ -4,9 +4,6 @@ namespace Core\Model;
 
 class AbstractModel
 {
-    /**
-     * @Exclude
-     */
     protected $forbiddenTypes = array('DateTime');
     
     public function getObjectArray($recursive = 1) {

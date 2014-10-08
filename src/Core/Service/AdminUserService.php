@@ -1,28 +1,14 @@
 <?php
-/**
- * Core\Service\AdminUserService
- *
- * PHP version 5.4
- *
- * @category General
- * @package  Core\Service\AdminUserService
- * @author   Dario Cavuotti <dc@syncr.com.ar>
- * @license  https://www.gnu.org/licenses/gpl.html GPL-3.0+
- * @version  GIT:<>
- * @link     https://github.com/desyncr
- */
 namespace Core\Service;
 
-use Core\Model\AdminUsers;
+use Core\Model\AdminUser;
 
 /**
  * Class AdminUserService
  *
  * @category General
  * @package  Core\Service
- * @author   Dario Cavuotti <dc@syncr.com.ar>
- * @license  https://www.gnu.org/licenses/gpl.html GPL-3.0+
- * @link     https://github.com/desyncr
+ * @author   Pablo Redigonda <pablo.redigonda@globant.com>
  */
 class AdminUserService extends AbstractService implements Service
 {
@@ -32,7 +18,7 @@ class AdminUserService extends AbstractService implements Service
      * @return mixed
      */
     public function getClassName() {
-		return get_class(new AdminUsers());
+		return get_class(new AdminUser());
 	}
 
     /**
